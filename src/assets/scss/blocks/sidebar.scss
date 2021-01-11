@@ -21,3 +21,20 @@
         object-fit: cover;
     }
 }
+
+.sidebar__content  {
+    padding: 0 2rem;
+}
+
+.sidebar__footer {
+    display: flex;
+    justify-content: space-between;
+
+    &--red {//індифікатор
+        background-color: $red;
+    }
+
+    &--blue {//індифікатор
+        background-color: $blue;
+    }
+}
