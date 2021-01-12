@@ -4,6 +4,7 @@
 
     background-color: $primary;
     box-shadow: 5px 0 15px rgba(#050505, .1);
+
     position: fixed;
     top: 0;
     left: 0;
@@ -22,19 +23,16 @@
     }
 }
 
-.sidebar__content  {
+.sidebar__content {
     padding: 0 2rem;
+    margin-top: -5rem;
 }
 
 .sidebar__footer {
     display: flex;
     justify-content: space-between;
-
-    &--red {//індифікатор
-        background-color: $red;
-    }
-
-    &--blue {//індифікатор
-        background-color: $blue;
-    }
+    padding: 0 2rem;
 }
+
+
+
