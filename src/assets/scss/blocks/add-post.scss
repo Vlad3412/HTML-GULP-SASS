@@ -33,7 +33,7 @@
 .add-post__form-actions {
     width: 20%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .add-post__file, 
@@ -61,7 +61,7 @@
 }
 
 .add-post__send {
-    background-color: $blue; 
+    background: $blue center no-repeat; 
 
     &:hover {
         background-color: darken($blue, 5%);
