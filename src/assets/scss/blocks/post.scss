@@ -13,13 +13,12 @@
 
     &--video {
         margin: 0 0 2.5rem;
-
     }
 }
 
 .post__preview {
     display: block;
-    min-width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -47,12 +46,12 @@
 .post__text {
     font-size: 1.4rem;
     color: #d2d2d2;
-    align-items: center;
 }
 
 .post__footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .post__data {
@@ -64,7 +63,7 @@
     a {
         color: inherit;
         text-decoration: none;
-        
+
         &:hover {
             text-decoration: underline;
         }

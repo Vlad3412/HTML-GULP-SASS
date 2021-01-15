@@ -655,7 +655,7 @@ body {
 
 .post__preview {
   display: block;
-  min-width: 100%;
+  max-width: 100%;
   height: auto; }
 
 .post__content {
@@ -674,12 +674,12 @@ body {
 
 .post__text {
   font-size: 1.4rem;
-  color: #d2d2d2;
-  align-items: center; }
+  color: #d2d2d2; }
 
 .post__footer {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .post__data {
   display: flex;
