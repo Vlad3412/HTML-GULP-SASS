@@ -14,7 +14,7 @@
     
     <title>Hello</title>
 </head>
-<body class="show-sidebar">
+<body>
 
     <div class="page">
         <!-- Header -->
@@ -128,6 +128,12 @@
                         <li class="nav__item">
                             <a class="nav__link" href="text.html">Реклама</a>
                         </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
+                        </li>
                     </ul>
                 </nav>
             </div><!-- /.sidebar__content -->
@@ -146,7 +152,10 @@
                 
                 <article class="work">
                     <div class="work__preview">
-                        <img src="assets/images/works/work1.jpg" alt="">
+                        <picture>
+                            <source srcset="https://placehold.it/575x150" media="(max-width: 575px)"><!--mobile-->
+                        <img src="assets/images/works/work2.jpg" alt=""><!--для десктопу-->
+                        </picture>
                     </div>
                 
                     <div class="work__content">
@@ -172,7 +181,10 @@
                 
                 <article class="work">
                     <div class="work__preview">
+                        <picture>
+                            <source srcset="https://placehold.it/575x150" media="(max-width: 575px)">
                         <img src="assets/images/works/work2.jpg" alt="">
+                        </picture>
                     </div>
                 
                     <div class="work__content">
